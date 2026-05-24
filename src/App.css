@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000009;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.app-body {
+  display: flex;
+  gap: 20px;
+}

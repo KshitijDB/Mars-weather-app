@@ -1,0 +1,80 @@
+.dashboard {
+  flex: 1;
+  background-color: #656176;
+  border-radius: 10px;
+  padding: 28px;
+}
+
+.dashboard-header {
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.dashboard-city-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.dashboard-region {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.stats-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.stat-card {
+  flex: 1;
+  background-color: #BFD1E5;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: #aaaaaa;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stat-value {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.dust-bar-bg {
+  margin-top: 12px;
+  height: 6px;
+  background-color: #1a1a2e;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dust-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.advisory-box {
+  border-radius: 8px;
+  padding: 20px 24px;
+}
+
+.advisory-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.advisory-text {
+  font-size: 15px;
+  color: #cccccc;
+  line-height: 1.7;
+}
