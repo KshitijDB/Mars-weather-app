@@ -24,14 +24,14 @@ function Dashboard({ selectedCity }) {
       {}
       <div className="stats-row">
         <div className="stat-card">
-          <p className="stat-label">🌡️ Temperature</p>
+          <p className="stat-label"> Temperature</p>
           <p className="stat-value" style={{ color: selectedCity.theme }}>
             {selectedCity.temp}
           </p>
         </div>
 
         <div className="stat-card">
-          <p className="stat-label">🌪️ Dust Level</p>
+          <p className="stat-label"> Dust Level</p>
           <p className="stat-value" style={{ color: dustColor }}>
             {selectedCity.dustLevel}
           </p>
